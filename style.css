@@ -1,0 +1,59 @@
+:root {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	background-color: #222;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	touch-action: none;
+}
+
+canvas {
+	width: 100%;
+	aspect-ratio: 1;
+	image-rendering: pixelated;
+}
+
+.button {
+	position: absolute;
+	width: 15vh;
+	aspect-ratio: 1;
+	bottom: 0;
+	left: 0;
+	background: url(images/button.png) no-repeat center;
+	background-size: 80%;
+	display: none;
+	image-rendering: pixelated;
+}
+
+body.touch-enabled .button {
+	display: block;
+}
+
+.button-left {
+	transform: rotate(-90deg)
+}
+
+.button-right {
+	transform: translateX(100%) rotate(90deg)
+}
+
+.button-jump {
+	left: unset;
+	right: 0;
+}
+
+@media (min-aspect-ratio: 1) {
+	canvas {
+		width: unset;
+		height: 100%;
+	}
+
+	.button {
+		width: 10vw;
+	}
+}

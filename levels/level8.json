@@ -1,0 +1,50 @@
+{
+	"name": "Level 8",
+	"spawnX": 32,
+	"spawnY": 176,
+	"music": "castle",
+	"pizzas": [
+		{"x":264,"y":152},
+		{"x":520,"y":160},
+		{"x":584,"y":160},
+		{"x":904,"y":200},
+		{"x":1000,"y":200},
+		{"x":1416,"y":160}
+	],
+	"enemies": [
+		{"name":"JumpingFire","x":312,"y":320},
+		{"name":"JumpingFire","x":216,"y":128},
+		{"name":"Firebar","x":488,"y":112},
+		{"name":"Firebar","x":552,"y":208},
+		{"name":"Firebar","x":616,"y":112},
+		{"name":"JumpingFire","x":792,"y":240},
+		{"name":"Firebar","x":904,"y":224},
+		{"name":"Firebar","x":1000,"y":224},
+		{"name":"JumpingFire","x":1208,"y":240},
+		{"name":"Firebar","x":1320,"y":96},
+		{"name":"Firebar","x":1320,"y":224},
+		{"name":"Firebar","x":1512,"y":96},
+		{"name":"Firebar","x":1512,"y":224},
+		{"name":"Boss","x":1964,"y":176}
+	],
+	"blocks": [
+		"",
+		"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+		"          k     k     k    fffffffffffffff    k     k     k k     k     k    fffffffffffffffffffffff      k      k            k",
+		"          k     k     k    fffffffffffffff    k     k     k k     k     k    fffffffffffffffffffffff      k      k            k",
+		"          k     k     k    fffffffffffffff    k     k     k k     k     k    fffffffffffffffffffffff      k      k            k",
+		"          k     k     k    fffffffffffffff    k     k     k k     k     k    fffffgfffffffffffgfffff      k      k            k",
+		"          k     k     k    fffgfffffffgfff    k     k     k k     k     k                                 k      k            k",
+		"          k     k     k                       k     k     hij     k     k                                 k      k            k",
+		"          k     k     k                       k     k             k     k                                 k      k            k",
+		"          k     k     k                       k     k             k     k      fffffff     fffffff        k      k            k",
+		"          k     g     k                       hiiiiij             hiiiiij                                 k      k            k",
+		"ffff      g           g                                                                                   k      hiiiiiiiiiiiij",
+		"fffff                      fffffffgfffffff                                                                g",
+		"ffffff                     fffffffffffffff              g     g              fffffgfffffffffffgfffff",
+		"ffffff                     fffffffffffffff              g     g              fffffffffffffffffffffff",
+		"ffffff                     fffffffffffffff              g     g              fffffffffffffffffffffff"
+	],
+	"lava":
+		"      111111111111111111111               11111111111111111111111111111111111                       1111111111111111111111111111"
+}

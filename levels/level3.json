@@ -1,0 +1,50 @@
+{
+	"name": "Level 3",
+	"spawnX": 64,
+	"spawnY": 224,
+	"endX": 1990,
+	"endY": 80,
+	"nextLevel": "level4",
+	"background": "sky",
+	"music": "overworld",
+	"pizzas": [
+		{"x":232,"y":128},
+		{"x":344,"y":192},
+		{"x":376,"y":192},
+		{"x":408,"y":192},
+		{"x":664,"y":64},
+		{"x":760,"y":128},
+		{"x":792,"y":128},
+		{"x":1016,"y":144},
+		{"x":1072,"y":144},
+		{"x":1128,"y":144},
+		{"x":1320,"y":160},
+		{"x":1640,"y":48}
+	],
+	"enemies": [
+		{"name":"FlyingFly", "x":572, "y":180},
+		{"name":"Fly", "x":952, "y":200},
+		{"name":"Fly", "x":1112, "y":128},
+		{"name":"HoveringFly", "x":1432, "y":128},
+		{"name":"HoveringFly", "x":1528, "y":96},
+		{"name":"FlyingFly", "x":1832, "y":200}
+	],
+	"blocks": [
+		"",
+		"",
+		"",
+		"                                                                                                     bcd",
+		"                                        bcd                                                           e",
+		"                                         e                       3333                                 e                    bcd",
+		"                                         e                                                            e                     e",
+		"                                         e                                                            e                     e",
+		"            bcccd                        e    bcccd                                                   e                     e",
+		"              e                          e      e             3333333333                              e                  bcde",
+		"              e              bcd         e      e                         q      bcd                  e                   e e",
+		" q        bcd e               e        bcccd    e                       q r       e              bcccde                   e e",
+		" r         e  e     bcccccd   e          e      e8a  899a            89as s       e                e  e  bcccd            e ebcd",
+		"as         e  e89a     e      e          e     1111111111111111111111111111111    e    bcccccd     e  e    e         89a  e e e8",
+		"1111111111111111111    e      e          e     2222222222222222222222222222222    e       e        e  e    e        111111111111",
+		"2222222222222222222    e      e          e     2222222222222222222222222222222    e       e        e  e    e        222222222222"
+	]
+}
